@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@669&display=swap');
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(21, 138, 50, 0.9);
+    height: 300px;
+    width: 275px;
+    border-radius: 25px;
+    box-shadow: 5px 5px;
+}
+.calculadora td button{
+    display: block;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    box-shadow: rgb(0, 22, 0) 3px 3px
+}
+#resultado{
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    text-align: right;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    width: 230px;
+    height: 40px;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: rgb(0, 22, 0) 5px 5px
+}
